@@ -1,0 +1,109 @@
+section.steps-cards {
+
+    position: relative;
+    top: -126px;
+
+    @media @breakTabletMin {
+        top: -130px;
+    }
+
+    .cards {
+        &.mobile {
+            display: none;
+            width: 100%;
+            max-width: 350px;
+            margin: 0 auto;
+
+            .lSSlideWrapper {
+                box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.15);
+                border-radius: 24px;
+                border: 0 solid #454545;
+                background-color: transparent !important;
+                @media @breakTabletMin {
+                    max-width: 350px;
+                    margin: 0 auto;
+                    box-shadow: none;
+                    border: none;
+                    border-radius: inherit;
+                }
+            }
+
+            @media @breakTabletMin {
+                display: contents;
+            }
+        }
+        &.desktop {
+            display: flex;
+            @media @breakTabletMin {
+                display: none;
+            }
+        }
+    }
+
+    .card {
+
+        height: 260px;
+        box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 24px;
+        border: 0 solid #454545;
+        background-color: #ffffff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media @breakTabletMin {
+            height: inherit;
+            padding: 40px 15px;
+            box-shadow: none;
+            border: 1px solid rgba(0,0,0,.125);
+        }
+
+        .image {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            img {
+                max-height: 120px;
+            }
+        }
+
+        .title-card {
+
+            color: #282d39;
+            font-family: "Avenir Black";
+            font-size: 22px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            line-height: 30px;
+            text-align: center;
+            padding-top: 10px;
+
+            @media @breakTabletMax{
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+        }
+
+        .text-card {
+
+            color: rgba(40, 45, 57, 0.6);
+            font-family: "Avenir Book";
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 28px;
+            text-align: center;
+            max-width: 290px;
+            margin: 0 auto;
+
+            @media @breakTabletMax{
+                font-size: 16px;
+                line-height: 22px;
+            }
+
+        }
+
+    }
+
+}

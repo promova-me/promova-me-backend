@@ -1,0 +1,135 @@
+section.hero {
+
+    .ftco-cover-1 {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        &,
+        & .container>.row {
+            height: 41vw;
+            max-height: 620px;
+            min-height: 620px;
+
+            @media @breakTabletMax {
+                min-height: 530px;
+            }
+
+            @media @breakTabletMin {
+                min-height: 510px;
+            }
+
+            @media screen and (max-width: 392px) {
+                min-height: 490px;
+            }
+
+            @media screen and (max-width: 340px) {
+                min-height: 510px;
+            }
+        }
+
+        >.container {
+            position: relative;
+        }
+        &.overlay {
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                opacity: .85; // background: rgba(0,196,255,1);
+                background: #379abb;
+                background: -moz-linear-gradient(45deg, #379abb  0%, #7ac5d8 100%);
+                background: -webkit-gradient(left bottom, right top, color-stop(0%, #379abb), color-stop(100%, #7ac5d8));
+                background: -webkit-linear-gradient(45deg, #379abb 0%, #7ac5d8 100%);
+                background: -o-linear-gradient(45deg, #379abb 0%, #7ac5d8 100%);
+                background: -ms-linear-gradient(45deg, #379abb 0%, #7ac5d8 100%);
+                background: linear-gradient(45deg, #379abb 0%, #7ac5d8 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#379abb', endColorstr='#7ac5d8', GradientType=1);
+            }
+        }
+    }
+
+    .middle {
+        padding-top: 80px;
+        @media @breakTabletMax {
+            padding-top: 60px;
+            position: relative;
+            z-index: 2;
+        }
+
+        @media @breakTabletMin {
+            padding-top: 50px;
+        }
+
+        @media screen and (max-width: 350px){
+            padding: 50px 12px;
+        }
+
+        .title {
+            color: @white;
+            font-family: "Avenir Black";
+            font-size: 42px;
+            font-weight: 900;
+            letter-spacing: 0.88px;
+            line-height: 50px;
+            text-align: center;
+
+            @media @breakTabletMax {
+                font-size: 30px;
+                letter-spacing: inherit;
+                line-height: 36px;
+            }
+
+            @media @breakTabletMin {
+                font-size: 27px;
+                line-height: 32px;
+            }
+
+            @media screen and (max-width: 392px){
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            @media screen and (max-width: 350px){
+                font-size: 22px;
+            }
+        }
+
+        .text {
+            padding-top: 20px;
+            color: @white;
+            font-family: "Avenir Book";
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 32px;
+            text-align: center;
+
+            @media @breakTabletMax {
+                font-size: 20px;
+                line-height: 27px;
+            }
+
+            @media @breakTabletMin {
+                font-size: 17px;
+                line-height: 24px;
+            }
+
+            @media screen and (max-width: 392px){
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        .cta {
+            max-width: 304px;
+            margin: 40px auto 0;
+            @media screen and (max-width: 480px){
+                margin: 40px auto 0;
+            }
+        }
+    }
+}

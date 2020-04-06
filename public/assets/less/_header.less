@@ -1,0 +1,58 @@
+header {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 0;
+
+        .left {
+            @media @breakTabletMin {
+                margin: 0 auto;
+            }
+            img {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+
+        .right {
+
+            @media @breakTabletMin {
+                margin: 0 auto 8px;
+            }
+
+            ul {
+                margin: 0;
+
+                @media @breakTabletMin {
+                    padding: 0;
+                }
+
+                li {
+                    display: inline;
+                    text-align: center;
+
+                    a {
+                        display: inline-block;
+                        margin: 0;
+                        text-decoration: none;
+                        color: @text-gray-3;
+                        font-family: "Avenir Black";
+                        font-size: 18px;
+                        font-weight: 900;
+                        padding: 0 20px;
+
+                        @media screen and (max-width: 380px){
+                            font-size: 15px;
+                            padding: 0 16px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

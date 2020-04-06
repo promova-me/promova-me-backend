@@ -1,0 +1,134 @@
+footer {
+    background-color: @blue-predominant;
+    min-height: 100px;
+    .container {
+        display: flex;
+        padding: 50px 0 30px;
+        position: relative;
+
+        @media @breakTabletMin {
+            flex-direction: column;
+            padding: 50px 15px;
+            text-align: center;
+        }
+
+        @media @breakMobileMax {
+            padding: 30px 15px;
+        }
+
+        .back-to-top {
+            width: 70px;
+            height: 70px;
+            box-shadow: 3px 3px 20px rgba(0, 204, 2, 0.15);
+            border-radius: 35px;
+            border: 1px solid @blue-predominant;
+            background-color: @white;
+            position: absolute;
+            right: 80px;
+            text-align: center;
+            z-index: 10;
+            top: -35px;
+            line-height: 14px;
+
+            span {
+                color: @blue-predominant;
+                font-family: "Avenir Black";
+                font-size: 10px;
+                font-weight: 900;
+                line-height: 0;
+                text-transform: uppercase;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                top: 22px;
+            }
+
+            @media @breakTabletMin {
+                width: 60px;
+                height: 60px;
+                line-height: 12px;
+                right: 40px;
+                span {
+                    top: 17px;
+                    font-size: 8px;
+                }
+            }
+        }
+
+        h4.title {
+            font-size: 24px;
+            color: @white;
+            font-weight: 900;
+            padding: 0;
+            font-family: "Avenir Black";
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+            margin: 0;
+            li {
+                color: @white;
+                font-size: 16px;
+                font-family: "Avenir Book";
+            }
+        }
+
+        .left, .middle, .right {
+            @media @breakTabletMin {
+                padding: 15px 0;
+            }
+        }
+
+        .left {
+            display: flex;
+
+            @media @breakTabletMin {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-logo {
+                max-width: 200px;
+                img {
+                    width: 100%;
+                    background-color: @white;
+                    padding: 0 10px;
+                    border-radius: 5px;
+                    border: 2px solid @blue-predominant;
+                }
+            }
+        }
+    }
+    .additional_info
+    {
+        height: 30px;
+        background-color: rgba(40, 45, 57, 0.1);
+        font-family: "Avenir Book";
+        font-size: 13px;
+        font-weight: 600;
+        width: 100%;
+
+        @media screen and (max-width: 1320px) {
+            padding: 10px;
+            display: inline-table;
+        }
+
+        p {
+            margin: 0;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .rights {
+            display: block;
+            text-align: center;
+
+            @media screen and (min-width: 1319px) {
+                clear: both;
+                position: relative;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+        }
+    }
+}
