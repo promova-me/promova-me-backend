@@ -1,6 +1,6 @@
 <!-- Section Hero -->
 <section class="hero">
-    <div class="ftco-cover-1 overlay" style="background-image: url('../../assets/images/cargo_delivery_big.jpg')">
+    <div class="ftco-cover-1 overlay" style="background-image: url('/assets/images/cargo_delivery_big.jpg')">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="middle col-md-8">
@@ -12,7 +12,7 @@
                 </div>
                 <!--<div class="right col-md-6">
                     <div class="image-children">
-                        <img src="../../assets/images/hero-img.svg" alt="" class="children">
+                        <img src="/assets/images/hero-img.svg" alt="" class="children">
                     </div>
                 </div>-->
             </div>

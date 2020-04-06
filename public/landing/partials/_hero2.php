@@ -70,7 +70,7 @@ $states = array('AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MS','MT','MG'
 
                     <div class="lead-answer">
                         <div class="img-check">
-                            <img src="../../assets/images/confirmacaoo.png" alt="">
+                            <img src="/assets/images/confirmacaoo.png" alt="">
                         </div>
                         <h3 class="title">Parabéns!</h3>
                         <h4 class="msg">Você recebera um email para baixar nosso e-book.</h4>

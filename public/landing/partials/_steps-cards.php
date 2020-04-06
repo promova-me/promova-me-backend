@@ -1,4 +1,4 @@
-<!-- Section Health Cards -->
+<!-- Section Steps Cards -->
 <section class="steps-cards" id="steps-cards">
     <div class="container">
         <div class="row justify-content-md-center">
@@ -7,7 +7,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="image">
-                            <img src="../../assets/images/card-1.svg" alt="">
+                            <img src="/assets/images/card-1.svg" alt="">
                         </div>
                         <h3 class="title-card">
                             Preencha as informações do seu negócio
@@ -17,7 +17,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="image">
-                            <img src="../../assets/images/card-2-old.svg" alt="">
+                            <img src="/assets/images/card-2-old.svg" alt="">
                         </div>
                         <h3 class="title-card">
                             Selecione uma foto ou imagem bem legal
@@ -27,7 +27,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="image">
-                            <img src="../../assets/images/card-3.svg" alt="">
+                            <img src="/assets/images/card-3.svg" alt="">
                         </div>
                         <h3 class="title-card">
                             Pronto! Agora é só compartilhar
@@ -39,11 +39,11 @@
 
             <div class="cards mobile">
                 <div class="col-sm-12">
-                    <ul id="sliderHealthCards">
+                    <ul id="sliderStepsCards">
                         <li>
                             <div class="card">
                                 <div class="image">
-                                    <img src="../../assets/images/card-1.svg" alt="">
+                                    <img src="/assets/images/card-1.svg" alt="">
                                 </div>
                                 <h3 class="title-card">
                                     Preencha as informações do seu negócio
@@ -53,7 +53,7 @@
                         <li>
                             <div class="card">
                                 <div class="image">
-                                    <img src="../../assets/images/card-2-old.svg" alt="">
+                                    <img src="/assets/images/card-2-old.svg" alt="">
                                 </div>
                                 <h3 class="title-card">
                                     Selecione uma foto ou imagem bem legal
@@ -63,7 +63,7 @@
                         <li>
                             <div class="card">
                                 <div class="image">
-                                    <img src="../../assets/images/card-3.svg" alt="">
+                                    <img src="/assets/images/card-3.svg" alt="">
                                 </div>
                                 <h3 class="title-card">
                                     Pronto! Agora é só compartilhar

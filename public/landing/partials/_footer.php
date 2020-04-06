@@ -5,7 +5,7 @@
         </a>
         <div class="left col-md-5 col-sm-12">
             <div class="image-logo">
-                <img src="../../assets/images/logo-promova-me.png" alt="" class="logo">
+                <img src="assets/images/logo-promova-me.png" alt="" class="logo">
             </div>
         </div>
         <div class="middle col-md-4 col-sm-12">

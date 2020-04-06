@@ -26,19 +26,19 @@
 
 @font-face {
     font-family: "Chewy Regular";
-    src: url("../../assets/fonts/Chewy-Regular.ttf");
+    src: url("/assets/fonts/Chewy-Regular.ttf");
 }
 @font-face {
     font-family: "Avenir Black";
-    src: url("../../assets/fonts/AvenirLTStd-Black.otf");
+    src: url("/assets/fonts/AvenirLTStd-Black.otf");
 }
 @font-face {
     font-family: "Avenir Book";
-    src: url("../../assets/fonts/AvenirLTStd-Book.otf");
+    src: url("/assets/fonts/AvenirLTStd-Book.otf");
 }
 @font-face {
     font-family: "Avenir Roman";
-    src: url("../../assets/fonts/AvenirLTStd-Roman.otf");
+    src: url("/assets/fonts/AvenirLTStd-Roman.otf");
 }
 
 * {
@@ -74,36 +74,15 @@ textarea {
 }
 
 .cta {
-
+    border-radius: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 66px auto 50px;
     width: 100%;
     max-width: 255px;
-    height: 56px;
-    box-shadow: 0 4px 0px 0 darken(@orange-complement, 10%);
-    border-radius: 28px;
-    border: none;
-    background-color: @orange-complement;
-    text-shadow: 0 2px 2px rgba(0,0,0,.22);
-    color: @white;
-    font-size: 23px;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 0;
-
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-
-    &:disabled,[disabled] {
-        background-image: linear-gradient(90deg,#AAAAAA 0,#999999 100%);
-        box-shadow: 0 4px 0px 0 #666666;
-        cursor: progress;
-    }
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 20px;
+    outline: none;
 
     span {
         font-family: "Avenir Black";
@@ -111,6 +90,27 @@ textarea {
         font-weight: 900;
         letter-spacing: 0.38px;
         padding-top: 6px;
+    }
+
+    &-white {
+        background-color: @white;
+        span {
+            color: @green;
+        }
+    }
+
+    &-green {
+        background-color: @green;
+        span {
+            color: @yellow;
+        }
+    }
+
+    &-orange {
+        background-color: @orange-complement;
+        span {
+            color: @white;
+        }
     }
 }
 
@@ -124,7 +124,7 @@ input[type=number] {
     -moz-appearance:textfield;
 }
 
-// Change dots color of Slider on mobile 
+// Change dots color of Slider on mobile
 .lSSlideOuter .lSPager.lSpg>li a {
     background-color: @blue-lighter;
 }

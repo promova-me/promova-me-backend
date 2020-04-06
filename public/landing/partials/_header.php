@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="navbar">
             <div class="left">
-                <img src="../..../../assets/images/logo-promova-me.png" alt="">
+                <img src="/assets/images/logo-promova-me.png" alt="">
             </div>
             <div class="right">
                 <ul class="menu">

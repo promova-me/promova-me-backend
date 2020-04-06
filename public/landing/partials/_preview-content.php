@@ -1,4 +1,7 @@
 <!-- Section Preview Content  -->
+<?php
+$colors = array('Azul','Amarelo','Laranja','Verde','Vermelho');
+?>
 <section class="preview-content" id="preview-content">
     <div class="container">
 
@@ -7,100 +10,148 @@
         </h1>
 
 
-        <div class="row card-generator">
+        <div class="card-generator">
 
-            <div class="col-md-6">
-                <span class="anchor" id="formPayment"></span>
+            <div class="row box">
 
-                <div class="card card-outline-secondary">
-                    <div class="card-body">
-                        <h3 class="text-center">Insira as informações</h3>
-                        <hr>
-                        <form class="form" role="form" autocomplete="off">
+                <div id="form-anchor"></div>
+
+                <div class="col-md-6">
+                    <div class="card-form">
+                        <h4 class="title-form">Vamos começar? <br>Insira as informações</h4>
+
+                        <form id="form-generate-card">
+
                             <div class="form-group">
-                                <label for="empresa">Seu nome ou da sua empresa</label>
-                                <input type="text" class="form-control" id="empresa" required="required">
-                            </div>
-                            <div class="form-group">
-                                <label for="frase">Descrição do produto ou serviço</label>
-                                <input type="text" class="form-control" id="frase" required="required">
+                                <input type="text" placeholder="Seu nome ou da sua empresa" class="form-control" id="name-form" maxlength="30" required="required">
                             </div>
                             <div class="form-group">
-                                <label for="telefone">Telefone para contato</label>
-                                <input type="tel" class="form-control" id="telefone" required="required">
+                                <input type="text" placeholder="Descrição do produto ou serviço" class="form-control" id="desc-form" maxlength="50" required="required">
                             </div>
                             <div class="form-group">
-                                <label for="entrega">Região de entrega</label>
-                                <input type="tel" class="form-control" id="entrega" required="required">
+                                <input type="tel" placeholder="Telefone para contato" class="form-control" id="phone-form" required="required">
                             </div>
                             <div class="form-group">
-                                <input type="file" id="file-chooser" class="file-chooser" accept="image/*" required="required" />
+                                <input type="text" placeholder="Região de entrega" class="form-control" id="delivery-form" required="required">
                             </div>
-                            <!--<div class="form-group">
-                                <label>Card Number</label>
-                                <input type="text" class="form-control" autocomplete="off" maxlength="20" pattern="\d{16}" title="Credit card number" required="">
+                            <div class="form-group">
+                                <select class="form-control" id="color-form" tabindex="5">
+                                    <option selected disabled value="">Escolha uma cor desejada</option>
+                                    <?php
+                                    foreach ($colors as $color){ ?>
+                                        <option value="<?= strtolower($color) ?>"><?= $color ?></option>
+                                        <?php
+                                    } ?>
+                                </select>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-md-12">Card Exp. Date</label>
-                                <div class="col-md-4">
-                                    <select class="form-control" name="cc_exp_mo" size="0">
-                                        <option value="01">01</option>
-                                        <option value="02">02</option>
-                                        <option value="03">03</option>
-                                        <option value="04">04</option>
-                                        <option value="05">05</option>
-                                        <option value="06">06</option>
-                                        <option value="07">07</option>
-                                        <option value="08">08</option>
-                                        <option value="09">09</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <select class="form-control" name="cc_exp_yr" size="0">
-                                        <option>2018</option>
-                                        <option>2019</option>
-                                        <option>2020</option>
-                                        <option>2021</option>
-                                        <option>2022</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <input type="text" class="form-control" autocomplete="off" maxlength="3" pattern="\d{3}" title="Three digits at back of your card" required="" placeholder="CVC">
-                                </div>
+                            <div class="form-group">
+                                <input type="file" id="file-chooser" class="file-chooser form-control" accept="image/*" required="required" />
                             </div>
-                            <div class="row">
-                                <label class="col-md-12">Amount</label>
-                            </div>
-                            <div class="form-inline">
-                                <div class="input-group">
-                                    <div class="input-group-prepend"><span class="input-group-text">$</span></div>
-                                    <input type="text" class="form-control text-right" id="exampleInputAmount" placeholder="39">
-                                    <div class="input-group-append"><span class="input-group-text">.00</span></div>
-                                </div>
-                            </div>-->
-                            <hr>
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-success btn-lg btn-block">Gerar Cartão</button>
-                                </div>
-                            </div>
+
+                            <span class="error-msg"></span>
+                            <a class="cta cta-orange" id="btn-generate-card" tabindex="8">
+                                <span>Gerar Grátis</span>
+                            </a>
                         </form>
+                    </div>
+
+                    <div class="card-answer">
+                        <div class="img-check">
+                            <img src="/assets/images/check.png" alt="">
+                        </div>
+                        <h3 class="title">Pronto! Você gerou com sucesso sua imagem promocional.</h3>
+
+                        <div class="bottom-share desktop" id="bottom-share">
+                            <div class="share-content">
+                                <h3 class="title-share">Compartilhe sua imagem ou baixe agora</h3>
+                                <div class="share-links">
+                                    <a id="facebook">
+                                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a id="instagram">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a id="whatsapp">
+                                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                        <span>WhatsaApp</span>
+                                    </a>
+                                    <a id="download" onclick="FinalCard.downloadCard()">
+                                        <i class="fa fa-download" aria-hidden="true"></i>
+                                        <span>Download</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <h4 class="msg2">Quer receber novidades e dicas direto no seu e-mail?</h4>
+
+                            <form id="form-get-email">
+                                <div class="form-group input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Quero!</button>
+                                    </div>
+                                </div>
+                                <span class="error-msg"></span>
+                            </form>
+
+                            <a class="cta cta-orange" id="back-to-generate" rel="rel">
+                                <span>Gerar novamente</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-            </div>
-
-            <div class="col-md-6">
-                <div class="canvas-content">
-                    <canvas class="card-canvas" id="card-canvas" width="600" height="600"> </canvas>
+                <div class="col-md-6 canvas-content">
+                    <canvas class="card-canvas" id="card-canvas"> </canvas>
+                    <img src="/assets/images/placeholder.png" alt="" class="placeholder" id="card-placeholder">
+                    <div class="look-how">
+                        <h5>Insira as informações e veja como ficará sua imagem!</h5>
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
                 </div>
 
-                <button onclick="download_image()">
-                    Download
-                </button>
+                <div class="bottom-share mobile" id="bottom-share">
+                    <div class="share-content">
+                        <h3 class="title-share">Compartilhe sua imagem ou baixe agora</h3>
+                        <div class="share-links">
+                            <a id="facebook">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a id="instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a id="whatsapp">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                <span>WhatsaApp</span>
+                            </a>
+                            <a id="download" onclick="FinalCard.downloadCard()">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                <span>Download</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h4 class="msg2">Quer receber novidades e dicas direto no seu e-mail?</h4>
+
+                    <form id="form-get-email">
+                        <div class="form-group input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button">Quero!</button>
+                            </div>
+                        </div>
+                        <span class="error-msg"></span>
+                    </form>
+
+                    <a class="cta cta-orange" id="back-to-generate" rel="rel">
+                        <span>Gerar novamente</span>
+                    </a>
+                </div>
+
             </div>
 
         </div>
