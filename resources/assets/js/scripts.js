@@ -278,6 +278,31 @@ const FinalCard = {
         link.download = "my-image.png";
         link.href = image;
         link.click();
+    },
+
+    redirectToSocialMedia: function (socialMedia, display) {
+        this.downloadCard();
+
+        switch (socialMedia) {
+            case "facebook":
+                if (display == 'desktop')
+                    window.location.replace("https://www.facebook.com/");
+                else
+                    window.location.replace("fb://");
+                break;
+            case "instagram":
+                if (display == 'desktop')
+                    window.location.replace("https://www.instagram.com/");
+                else
+                    window.location.replace("instagram://");
+                break;
+            case "whatsapp":
+                if (display == 'desktop')
+                    window.location.replace("https://web.whatsapp.com/");
+                else
+                    window.location.replace("https://api.whatsapp.com/");
+                break;
+        }
     }
 };
 

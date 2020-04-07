@@ -1,73 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4190e98-9061-455a-8dfe-f5ee8e078132" name="Default Changelist" comment="Ajustes da LP no backend">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_06_224253_add_newsletter_colum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_06_230313_set_default_value_newsletter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index_new.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/promova-me-lp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/lightslider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Book.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Roman.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/Chewy-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/card-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/card-2-old.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/card-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/card-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/logo-promova-me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/card-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/jquery.mask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/lightslider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_config.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_footer.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_header.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_hero.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_hero2.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_preview-content.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/_steps-cards.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/less/styles.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/landing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/_footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/_header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/_hero.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/_hero2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/_preview-content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/_steps-cards.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/landing/partials/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/landingold.blade.php" afterDir="false" />
+    <list default="true" id="a4190e98-9061-455a-8dfe-f5ee8e078132" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/promovame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promovame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/card-generator.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/less/_footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/less/_footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/less/_preview-content.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/less/_preview-content.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index_ond.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/landing/partials/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/landing/partials/_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/landing/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/landing/partials/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/landing/partials/_hero2.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/landing/partials/_preview-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/landing/partials/_preview-content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/.idea/promova-me-lp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/promova-me-lp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/lightslider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/lightslider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Black.otf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Black.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Book.otf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Book.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Roman.otf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Roman.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/Chewy-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/Chewy-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-2-old.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-2-old.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/logo-promova-me.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/logo-promova-me.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/card-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/jquery.mask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.mask.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/lightslider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/lightslider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_config.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_config.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_footer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_header.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_hero.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_hero.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_hero2.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_hero2.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_preview-content.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_preview-content.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/_steps-cards.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_steps-cards.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/less/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/styles.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_hero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_hero2.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_hero2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_preview-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_preview-content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_steps-cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_steps-cards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/landing/partials/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landingold.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landingold.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,162 +80,12 @@
       <executable />
     </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/landing/partials/_preview-content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="126" column="81" lean-forward="true" selection-start-line="126" selection-start-column="81" selection-end-line="126" selection-end-column="81" />
-              <folding>
-                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/CompanyController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#44#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/landing/partials/_preview-content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="121" column="47" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="47" />
-              <folding>
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Company.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_011124_update_type_colum_cmopany.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_06_230313_set_default_value_newsletter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_06_224253_add_newsletter_colum.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_000457_move_collum.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_000315_add_company_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>validation</find>
-      <find>btn-generate-card</find>
-      <find>file-chooser</find>
-      <find>gerar</find>
-      <find>Ajax</find>
-      <find>sendCardData</find>
-      <find>delivery-form</find>
-      <find>facebook</find>
-      <find>instagram</find>
-      <find>whatsapp</find>
-      <find>face</find>
-      <find>Compartilhe sua imagem ou baixe agora</find>
-      <find>bottom-share mobile</find>
-      <find>mobile</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\xampp\htdocs\promova-me-backend</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_04_01_235030_create_table_company.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_04_02_000315_add_company_email.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_04_02_000457_move_collum.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_04_02_011124_update_type_colum_cmopany.php" />
-        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/public/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_04_06_224253_add_newsletter_colum.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_04_06_230313_set_default_value_newsletter.php" />
-        <option value="$PROJECT_DIR$/app/Company.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/CompanyController.php" />
-        <option value="$PROJECT_DIR$/resources/landing/partials/_preview-content.php" />
-        <option value="$PROJECT_DIR$/public/landing/partials/_preview-content.php" />
-      </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -303,9 +152,7 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
@@ -341,51 +188,11 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="promova-me-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="promova-me-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="promova-me-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="promova-me-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="promova-me-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="promova-me-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="promova-me-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="promova-me-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1aDMVsIocBcogiIpNmV8UMUfIXB" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/projeto-3codeexperts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -394,6 +201,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\promova-me-backend\resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,6 +240,8 @@
       <workItem from="1585846747112" duration="440000" />
       <workItem from="1586181086337" duration="260000" />
       <workItem from="1586209913582" duration="6944000" />
+      <workItem from="1586265742028" duration="500000" />
+      <workItem from="1586266253448" duration="6829000" />
     </task>
     <task id="LOCAL-00001" summary="subindo os arquivos 1.0">
       <created>1585835938542</created>
@@ -447,250 +260,25 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28895000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23355705" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.11473088" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15722379" />
-      <window_info anchor="bottom" id="TypeScript" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subindo os arquivos 1.0" />
     <MESSAGE value="Ajustes da LP no backend" />
     <option name="LAST_COMMIT_MESSAGE" value="Ajustes da LP no backend" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_01_234521_add_user_attr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_01_235030_create_table_company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="742" column="61" selection-start-line="742" selection-start-column="61" selection-end-line="742" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#44#80#0#PHP" expanded="true" />
-            <element signature="e#364#2548#0#PHP" />
-            <element signature="e#2554#3996#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/card-generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/landing/partials/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/landingold.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/landing/landing.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/landing.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_000315_add_company_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_000457_move_collum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_06_224253_add_newsletter_colum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_011124_update_type_colum_cmopany.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_06_230313_set_default_value_newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/CompanyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#44#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/landing/partials/_preview-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="121" column="47" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/landing/partials/_preview-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="126" column="81" lean-forward="true" selection-start-line="126" selection-start-column="81" selection-end-line="126" selection-end-column="81" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

@@ -81,17 +81,17 @@ $colors = array('Azul','Amarelo','Laranja','Verde','Vermelho');
                                 <h3 class="title-share">Compartilhe sua imagem ou baixe agora</h3>
                                 <div class="share-links">
                                     <div class="line">
-                                        <a id="facebook" href="https://mobile.facebook.com/">
+                                        <a id="facebook" onclick="FinalCard.redirectToSocialMedia('facebook','desktop')">
                                             <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                             <span>Facebook</span>
                                         </a>
-                                        <a id="instagram" href="https://www.instagram.com/">
+                                        <a id="instagram" onclick="FinalCard.redirectToSocialMedia('instagram','desktop')">
                                             <i class="fa fa-instagram" aria-hidden="true"></i>
                                             <span>Instagram</span>
                                         </a>
                                     </div>
                                     <div class="line">
-                                        <a id="whatsapp" href="http://api.whatsapp.com/send?1=pt_BR">
+                                        <a id="whatsapp" onclick="FinalCard.redirectToSocialMedia('whatsapp','desktop')">
                                             <i class="fa fa-whatsapp" aria-hidden="true"></i>
                                             <span>WhatsaApp</span>
                                         </a>
@@ -124,17 +124,17 @@ $colors = array('Azul','Amarelo','Laranja','Verde','Vermelho');
                         <h3 class="title-share">Compartilhe sua imagem ou baixe agora</h3>
                         <div class="share-links">
                             <div class="line">
-                                <a id="facebook" href="https://mobile.facebook.com/">
+                                <a id="facebook" onclick="FinalCard.redirectToSocialMedia('facebook','mobile')">
                                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                     <span>Facebook</span>
                                 </a>
-                                <a id="instagram" href="https://www.instagram.com/">
+                                <a id="instagram" onclick="FinalCard.redirectToSocialMedia('instagram','mobile')">
                                     <i class="fa fa-instagram" aria-hidden="true"></i>
                                     <span>Instagram</span>
                                 </a>
                             </div>
                             <div class="line">
-                                <a id="whatsapp" href="http://api.whatsapp.com/send?1=pt_BR">
+                                <a id="whatsapp" onclick="FinalCard.redirectToSocialMedia('whatsapp','mobile')">
                                     <i class="fa fa-whatsapp" aria-hidden="true"></i>
                                     <span>WhatsaApp</span>
                                 </a>
