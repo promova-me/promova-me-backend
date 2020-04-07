@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Nome da empresa</p>  
+    <input type="text" class="empresa"/>
+    <p>Frase motivacional</p>  
+    <input type="text" class="frase"/>
+    <p>Telefone para contato</p>  
+    <input type="text" class="telefone"/>
+  </br>
+    <input type="file" class="file-chooser" accept="image/*" />
+  </br>
+    <canvas class="my-canvas" width="375" height="812"> </canvas>
+  </body>
+  <script>
+    const $ = document.querySelector.bind(document);
+    const fileChooser = $(".file-chooser");
+    const empresa = $(".empresa");
+    const frase = $(".frase");
+    const telefone = $(".telefone");
+    var c = $(".my-canvas");
+
+    var ctx = c.getContext("2d");
+
+    fileChooser.onchange = e => {
+      const fileToUpload = e.target.files.item(0);
+
+      const reader = new FileReader();
+      reader.readAsDataURL(fileToUpload);
+      reader.onload = e => (base_image.src = e.target.result);
+    };
+
+    make_base();
+
+    function make_base() {
+      var reader = new FileReader();
+
+      base_image = new Image();
+
+      base_image.onload = function() {
+        ctx.drawImage(base_image, 0, 0, c.width, c.height);
+
+        var gradient = ctx.createLinearGradient(0, 0, c.width, c.height);
+        gradient.addColorStop(0.1, "rgba(0, 0, 0, 0.5)");
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, c.width, c.height);
+
+        ctx.fillStyle = "rgb(196,30,73)";
+
+        ctx.beginPath();
+        ctx.moveTo(c.height, c.height);
+        ctx.lineTo(c.height, 600);
+        ctx.lineTo(50, c.height);
+
+        ctx.moveTo(0, 0);
+        ctx.lineTo(0, 80);
+        ctx.lineTo(300, 0);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.fillStyle = "rgb(216,33,81)";
+
+        ctx.beginPath();
+        ctx.moveTo(c.height, c.height);
+        ctx.lineTo(c.height, 650);
+        ctx.lineTo(50, c.height);
+
+        ctx.moveTo(0, 0);
+        ctx.lineTo(0, 60);
+        ctx.lineTo(300, 0);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.fillStyle = "rgb(224,46,93)";
+
+        ctx.beginPath();
+        ctx.moveTo(c.height, c.height);
+        ctx.lineTo(c.height, 700);
+        ctx.lineTo(50, c.height);
+
+        ctx.moveTo(0, 0);
+        ctx.lineTo(0, 40);
+        ctx.lineTo(300, 0);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.fillStyle = "rgb(224,46,93)";
+
+        ctx.fillRect(10, 190, 150, 2);
+
+        ctx.fillStyle = "#fff";
+        ctx.font = "30px Arial Black";
+        ctx.fillText(empresa.value, 10, 130);
+
+        ctx.font = "12px Arial";
+        ctx.fillText(frase.value, 10, 220);
+
+        ctx.font = "12px Arial Black";
+        ctx.fillText("TELEFONE: " + telefone.value, 100, 800);
+      };
+    }
+  </script>
+</html>

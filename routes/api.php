@@ -40,7 +40,7 @@ Route::namespace('Api')->name('api.')->group(function () {
     Route::prefix('company')->group(function () {
         Route::get('/', 'CompanyController@index')->name('company.index');
         Route::get('/{id}', 'CompanyController@show')->name('company.show');
-        Route::post('/', 'CompanyController@add')->middleware('auth.basic')->name('company.add');
+        Route::post('/', 'CompanyController@add')->name('company.add');
         Route::put('/{id}', 'CompanyController@update')->name('company.update');
     });
 });

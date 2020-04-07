@@ -23,7 +23,7 @@ $(function() {
             }
 
             // AJAX AQUI
-            CardData.sendCardData();
+            // CardData.sendCardData();
         }
     });
 
@@ -252,13 +252,13 @@ const CardData = {
     sendCardData: function (){
         $.ajax({
             type: "POST",
-            url: '/api/company',
+            url: 'http://localhost::81/',
             dataType: 'json',
             data: {
                 name: this.name,
-                services: this.desc,
+                desc: this.desc,
                 phone: this.phone,
-                where_deliver: this.delivery,
+                delivery: this.delivery,
                 email: this.email,
                 newsletter: this.newsletter
             },

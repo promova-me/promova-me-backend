@@ -121,10 +121,10 @@ $colors = array('Azul','Amarelo','Laranja','Verde','Vermelho');
 
                 <div class="bottom-share mobile" id="bottom-share">
                     <div class="share-content">
-                        <h3 class="title-share">Baixe a sua imagem agora e comece a compartilhar:</h3>
+                        <h3 class="title-share">Compartilhe sua imagem ou baixe agora</h3>
                         <div class="share-links">
                             <div class="line">
-                                <a id="facebook" href="https://facebook.com.br/">
+                                <a id="facebook" href="https://mobile.facebook.com/">
                                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                     <span>Facebook</span>
                                 </a>
@@ -134,7 +134,7 @@ $colors = array('Azul','Amarelo','Laranja','Verde','Vermelho');
                                 </a>
                             </div>
                             <div class="line">
-                                <a id="whatsapp" href="https://wa.me/">
+                                <a id="whatsapp" href="http://api.whatsapp.com/send?1=pt_BR">
                                     <i class="fa fa-whatsapp" aria-hidden="true"></i>
                                     <span>WhatsaApp</span>
                                 </a>

@@ -15,7 +15,7 @@ class Company extends Model
 
 
     protected $fillable = [
-        'phone', 'email', 'zipcode', 'where_deliver', 'services',
+        'phone', 'email', 'zipcode', 'where_deliver', 'services','newsletter'
     ];
 
     protected $guarded = [

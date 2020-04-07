@@ -19,9 +19,15 @@ class CompanyController extends Controller
     /* Função de inserção de usuários ao banco */
     public function add(Request $req)
     {
-        try {
+       try {
 
-            $data = $req->all();
+           $data=$req->all();
+            if($data['newsletter']=='true'){
+                $data['newsletter']=1;
+            }else{
+                $data['newsletter']=0;
+            }
+
             $company = $this->company->create($data);
 
             return response()->json(['status'=>'success','msg'=>'Empresa cadastrada com sucesso!']);
@@ -50,7 +56,8 @@ class CompanyController extends Controller
     com informações para a paginação. */
     public function index()
     {
-        return response()->json($this->user->paginate(10));
+        echo 'GET mermo';
+//        return response()->json($this->user->paginate(10));
     }
 
     /* Função que exibe um registro específico */
