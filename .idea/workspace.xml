@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4190e98-9061-455a-8dfe-f5ee8e078132" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/promovame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promovame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/card-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/landing/partials/_hero2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/landing/partials/_preview-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/landing/partials/_preview-content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.idea/promova-me-lp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/promova-me-lp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/css/lightslider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/lightslider.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Black.otf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Black.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Book.otf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Book.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Roman.otf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/AvenirLTStd-Roman.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/Chewy-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/Chewy-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-2-old.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-2-old.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/card-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/card-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_big.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/cargo_delivery_small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/logo-promova-me.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/logo-promova-me.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/images/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/card-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/jquery.mask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.mask.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/lightslider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/lightslider.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_config.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_config.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_header.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_hero.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_hero.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_hero2.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_hero2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_preview-content.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_preview-content.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/_steps-cards.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/_steps-cards.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/less/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/less/styles.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/landing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_hero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_hero2.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_hero2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_preview-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_preview-content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/_steps-cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/_steps-cards.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/landing/partials/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/landing/partials/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landingold.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landingold.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +178,7 @@
       <workItem from="1586181086337" duration="260000" />
       <workItem from="1586209913582" duration="6944000" />
       <workItem from="1586265742028" duration="500000" />
-      <workItem from="1586266253448" duration="6829000" />
+      <workItem from="1586266253448" duration="7294000" />
     </task>
     <task id="LOCAL-00001" summary="subindo os arquivos 1.0">
       <created>1585835938542</created>
@@ -257,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586190057676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajustes nos links de compartilhamento">
+      <created>1586295703536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586295703536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,8 +221,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="subindo os arquivos 1.0" />
     <MESSAGE value="Ajustes da LP no backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes da LP no backend" />
+    <MESSAGE value="Ajustes nos links de compartilhamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes nos links de compartilhamento" />
   </component>
 </project>
